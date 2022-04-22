@@ -19,7 +19,8 @@ global df
 #chart=st.line_chart(df)
 
 st.title("Patient Monitoring in Intensive Care Unit")
-image = Image.open(os.path.join('C:\\Users\\Philip\\Desktop\\icu ml C\\1.jpg'))
+image = Image.open(os.path.join('1.jpg')) 
+#'C:\\Users\\Philip\\Desktop\\icu ml C\\1.jpg'
 st.image(image)
 
 
