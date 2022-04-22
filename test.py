@@ -48,7 +48,7 @@ df = pd.read_csv('C:\\Users\\Philip\\Desktop\\icu ml C\\ICU csv.csv')
     #ax=ax,
 #)
 def get_user_input():
-    age =st.sidebar.slider('Age',0,50,40)
+    age =st.sidebar.slider('Age',0,60,40)
     hb =st.sidebar.slider('Heart Rate',0,200,90)
     pressure =st.sidebar.slider('Pressure',0,250,120)
     temperature  =st.sidebar.slider('Temperature',0,45,36)
